@@ -20,9 +20,11 @@ padding-top: 200px;
 
 .jumbotron{
     height:613px;
-    background-image: url("https://media.istockphoto.com/photos/modern-kitchen-with-smart-speaker-picture-id1314168855?s=612x612") !important;
+    background-image: url("Rectangle 4.png")  !important;
     background-size: cover;
     width:100%;
+    background-repeat: no-repeat;
+
 }
 
 .context-dark, .bg-gray-dark, .bg-primary {
