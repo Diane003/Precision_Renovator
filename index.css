@@ -27,52 +27,46 @@ padding-top: 200px;
 
 }
 
-.context-dark, .bg-gray-dark, .bg-primary {
-    color: rgba(255, 255, 255, 0.8);
+
+
+body{
+    font-family: 'Zen Old Mincho', serif;
+    font-family: 'Noto Serif TC', serif;
 }
 
-.footer-classic a, .footer-classic a:focus, .footer-classic a:active {
-    color: #ffffff;
-}
-.nav-list li {
-    padding-top: 5px;
-    padding-bottom: 5px;
+p {
+    white-space: pre-wrap;
 }
 
-.nav-list li a:hover:before {
-    margin-left: 0;
-    opacity: 1;
-    visibility: visible;
+.footer-text{
+    color: #F2E6D0;
+    font-family: Zen Old Mincho;
+    font-size: 18px;
+    line-height: 20px;
+    text-decoration: none;
 }
 
-ul, ol {
-    list-style: none;
-    padding: 0;
-    margin: 0;
+.footer:hover {
+    background-color: yellow;
+  }
+
+.footer-text-title{
+    color: #F2E6D0;
+    font-family: Zen Old Mincho;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 20px;
+    text-decoration-line: underline;
+    text-underline-offset: 2px;
+    text-decoration-style: solid;
+    text-decoration-color: #F2E6D0;
+    text-decoration-thickness: 3px;
+    padding-bottom: 10px;
 }
 
-.social-inner {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    padding: 23px;
-    font: 900 13px/1 "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-    text-transform: uppercase;
-    color: rgba(255, 255, 255, 0.5);
-}
-.social-container .col {
-    border: 1px solid rgba(255, 255, 255, 0.1);
-}
-.nav-list li a:before {
-    content: "\f14f";
-    font: 400 21px/1 "Material Design Icons";
-    color: #4d6de6;
-    display: inline-block;
-    vertical-align: baseline;
-    margin-left: -28px;
-    margin-right: 7px;
-    opacity: 0;
-    visibility: hidden;
-    transition: .22s ease;
+.footer-background{
+  --bs-bg-opacity: 1;
+  background-color: #344618 !important;
+  
 }
