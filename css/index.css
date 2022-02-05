@@ -2,7 +2,8 @@ a:link {
 	color: white;
 	background-color: transparent;
 	text-decoration: none;
-	}
+}
+
 ul.nav a:hover { color: #3A5D06 !important; } 
 a:hover { color: #3A5D06 !important; }  
 a:visited{color:#3A5D06 !important}
@@ -30,17 +31,12 @@ justify-content: center;
 color-adjust: white;
 }
 
-html {
-	scroll-behavior: smooth;
-  }
-
-
-
-
 .nav-link{
 font-size: 20px;
 color: white;
 }
+
+
 .bg-light{
 display: flex;
 flex-direction: row-reverse;
@@ -60,7 +56,8 @@ padding-left: 100px;
 	margin-right: 100px;
 }
 .nav-item{
-	text-shadow: 2px 2px 4px black;
+	/* set to only half opp */
+	text-shadow: 2px 2px 4px #00000028;
 }
 
 
@@ -268,7 +265,6 @@ h1{
  
 .footer-text-title{
     color: #F2E6D0;
-    font-family: Zen Old Mincho;
     font-style: normal;
     font-weight: normal;
     font-size: 22px;
