@@ -1,0 +1,290 @@
+a:link {
+	color: white;
+	background-color: transparent;
+	text-decoration: none;
+	}
+ul.nav a:hover { color: #3A5D06 !important; } 
+a:hover { color: #3A5D06 !important; }  
+a:visited{color:#3A5D06 !important}
+
+.jumbotron{
+background-image: url("../images/hero.jpg") !important;
+height: 613px;
+width: 100%;
+display:block;
+text-align: center;
+color: #3A5D06;
+background-position: center; 
+background-repeat: no-repeat;
+font-size: 20px;
+margin-top: -150px;
+background-size: cover;
+
+}
+
+.arrowdown{
+margin-top: -200px;
+margin-bottom: 140px;
+display: flex;
+justify-content: center;
+color-adjust: white;
+}
+
+html {
+	scroll-behavior: smooth;
+  }
+
+
+
+
+.nav-link{
+font-size: 20px;
+color: white;
+}
+.bg-light{
+display: flex;
+flex-direction: row-reverse;
+color:black;
+
+}
+.card-body{
+	background-color: black;
+	stroke-width: 0px;
+}
+
+.navbar-brand{
+font-size: 36px;
+padding-left: 100px;
+}
+.nav.justify-content-end{
+	margin-right: 100px;
+}
+.nav-item{
+	text-shadow: 2px 2px 4px black;
+}
+
+
+
+
+body{
+  background-color: #F2E6D0;
+  font-family: 'Zen Old Mincho', serif;
+	font-family: 'Noto Serif TC', serif;
+}
+
+
+
+.aboutme{
+  padding-top: 100px;
+  padding-bottom: 10px;
+  font-size: 40px;
+  color: #7B8C3E;
+  margin-left:20%;
+margin-right:20%;
+text-align: center;
+}
+
+.mt-5{
+	padding-top: 100px;
+  padding-bottom: 100px;
+  font-size: 40px;
+  color: #7B8C3E;
+  margin-left:20%;
+margin-right:20%;
+text-align: center;
+}
+
+.goal{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  font-size: 40px;
+  margin-left:20%;
+margin-right:20%;
+text-align: center;
+}
+
+.jumbotron2{
+  background-image: url("../images/green.png") !important;
+height: 700px;
+width: 100%;
+display:block;
+margin-left:auto;
+margin-right:auto;
+text-align: center;
+color:white;
+background-position: center; 
+background-repeat: no-repeat;
+background-size: cover;
+text-align: end;
+
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto ;
+  padding: 10px;
+}
+
+
+
+.social{
+	display:flex;
+	justify-content: center;
+	text-align: center;
+  }
+
+  .emailme{
+	display:flex;
+		text-align: left;
+  }
+.backupemail{
+
+margin-top: 100px;
+	font-size: 30px;
+	color:black;
+}
+.container.for-about{
+	display:flex;
+flex-direction: row-reverse;
+
+}
+
+.Heropage{
+	display:flex;
+	justify-content: center;
+	margin-left:auto;
+	margin-right: auto;
+
+}
+
+
+.scrolling-wrapper{
+	overflow-x: auto;
+}
+
+
+
+h1{
+	font-weight: 700;
+	font-size: 3.4em;
+}
+
+
+.subtitle{
+	font-size: 1.25em;
+	opacity: 0.65;
+}
+
+
+
+
+.NEWS{
+	margin-left: 50px;
+	margin-right:50px;
+}
+
+
+
+.card{
+	text-align: center;
+
+}
+.card-block{
+	box-shadow: 4px 4px 4px darkgray;
+	height: 400px;
+	background-color: #fff;
+	border-style: solid;
+
+	border-color: gray;
+	transition: all 0.2s ease-in-out !important;
+	border-radius: 0px;
+}
+.card-block:hover{
+	transform: translateY(-5px);
+	box-shadow:  none;
+	opacity: 0.9;
+}
+
+
+.card-1{
+	background-image: url("../images/bathroom.png") !important;
+	background-position: center; 
+	background-repeat: no-repeat;
+}
+
+.card-2{
+	background-image: url("../images/kitchen.png") !important;
+	background-position: center; 
+	background-repeat: no-repeat;
+}
+
+.card-3{
+	background-image: url("../images/livingroom.png") !important;
+	background-position: center; 
+	background-repeat: no-repeat;	
+}
+
+.card-4{
+	background-image: url("../images/bedroom.png") !important;
+	background-position: center; 
+	background-repeat: no-repeat;	
+}
+.card-5{
+	background-color: white;
+	background-image: url("../images/flooring.png") !important;
+	background-position: center; 
+	background-repeat: no-repeat;	
+	
+}
+
+
+.container{
+	width:800px;
+	color: #3A5D06;
+
+}
+.btn{
+	color: white;
+	background-color: #3A5D06;
+	width: 200px;
+	stroke: none;
+	border: none;
+}
+
+.footer-text{
+    color: #F2E6D0;
+    font-family: Zen Old Mincho;
+    font-size: 18px;
+    line-height: 20px;
+    text-decoration: none;
+	text-align: left;
+
+}
+ 
+.footer:hover {
+    background-color: yellow;
+  }
+ 
+.footer-text-title{
+    color: #F2E6D0;
+    font-family: Zen Old Mincho;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 20px;
+    text-decoration-line: underline;
+    text-underline-offset: 2px;
+    text-decoration-style: solid;
+    text-decoration-color: #F2E6D0;
+    text-decoration-thickness: 3px;
+    padding-bottom: 10px;
+	text-align: left;
+
+}
+ 
+.footer-background{
+  --bs-bg-opacity: 1;
+  background-color: #344618 !important;
+ 
+}
